@@ -110,16 +110,3 @@ To install the required packages, you can use:
 pip install torch scikit-learn matplotlib
 ```
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch with your feature or bug fix:
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-3. Commit and push your changes.
-4. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License.
