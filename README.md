@@ -10,8 +10,8 @@ This project implements a neural network model for predicting diabetes progressi
 │   ├── diabetes_model_state.pth   # The saved model
 │   ├── example_usage.py           # Demonstrates usage of the DiabetesModel class
 │   └── model.py                   # Contains the DiabetesModel class
-├── nn.ipynb
-├── README.md
+├── nn.ipynb                       # The model in a jupyter notebook format
+├── README.md                      
 └── requirements.txt
 
 
