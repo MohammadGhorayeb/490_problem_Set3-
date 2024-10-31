@@ -99,6 +99,18 @@ predictions = model.predict(model.X_test_tensor)
 print(predictions[:5])
 ```
 
+### Loading the Model's State Dictionary
+To load the saved model, initialize the model architecture and load the parameters:
+
+```python
+# Initialize the model architecture with the same input size and parameters
+model = DiabetesModel(X, y)
+
+# Load the saved state dictionary
+model.model.load_state_dict(torch.load('model_code/diabetes_model_state.pth'))
+model.model.eval()  # Set to evaluation mode
+```
+
 ## Requirements
 
 - Python 3.6+
