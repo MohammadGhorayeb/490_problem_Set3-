@@ -23,8 +23,8 @@ This project implements a neural network model for predicting diabetes progressi
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/MohammadGhorayeb/Diabetes.git
+    cd Diabetes
     ```
 
 2. **Install required dependencies** (e.g., `scikit-learn`, `torch`, `matplotlib`):
